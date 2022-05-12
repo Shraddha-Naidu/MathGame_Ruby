@@ -1,0 +1,25 @@
+player
+- Two player game, each player takes a turn
+- Should be able to input answers to received questions
+- Each player starts with 3 lives, loses a life with each wrong answer
+- First player to lose all lives, loses game
+- Add user naming ability to differentiate
+- Able to recognize inputted answers
+- Tracker for remaining lives
+
+
+questions
+- Provide question to one player, each question per turn should be differentiate
+- Have set of questions (db?)
+- Have corresponding answers (db?)
+
+turn
+- Identifies which player is up
+- Asks queued question
+- Returns with correct answer if provided wrong answer
+- Returns with "Woo Hoo!" if provided with correct answer
+
+game
+- Implement score Tracker
+- Indicates when a player has lost all lives with "Oops! Maybe next time!"
+- Declare winner by taking in user name
